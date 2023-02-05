@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <article class="card">
+        <figure class="card__figure">
+            <img src="./images/mario.png"class="card__figure--mario">
+            <img src="./images/tubo.png" class="card__figure--tubo">
+        </figure>
+        <div class="card__texts">
+            <h2>Super Mario Bros</h2>
+            <p>Solo un verdadero fan de Mario Bros puede solucionar este reto. Cuál es el mayor temor de Mario al saltar sobre un tubo. Que se le aparezca...<br>Elige sabiamente!</p>
+            <div class="bot">
+            <button class="bot__cta" onClick="error()"><img src="./images/goomba.png" class="bot__cta--img"></button>
+            <button class="bot__cta" onClick="error()"><img src="./images/bowser.png" class="bot__cta--img"></button>
+            <button class="bot__cta" id="boton3" onClick="mario()"><img src="./images/planta.png" class="bot__cta--img"></button>
+        </div>
+        </div>
+    </article>
+    <script type="text/javascript" src="./js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
